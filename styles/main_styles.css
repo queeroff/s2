@@ -129,8 +129,10 @@ h4{font-size: 18px;}
 h5{font-size: 14px;}
 h1, h2, h3, h4, h5, h6
 {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
+	font-family: poplar-std, sans-serif;
+font-style: normal;
+font-weight: 800;
+text-transform: uppercase;
 	color: #000000;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
@@ -424,7 +426,9 @@ section
 	display: inline-block;
 }
 .logo_container
+
 {
+	
 	width: 100px;
 }
 .logo
@@ -981,9 +985,8 @@ section
 .language
 {
 	width: 100%;
-	padding-top: 50px;
-	padding-bottom: 50px;
-	background: url(file:///Users/JayPii/Dump/The%20Queer%20Off/Season2_Photos/canvas.jpg);
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 .language_slider_container
 {
@@ -994,7 +997,7 @@ section
 .language_item
 {
 	text-align: center;
-	padding-top: 25px;
+	padding-top: 5px;
 	padding-bottom: 25px;
 	cursor: pointer;
 }
@@ -1577,20 +1580,37 @@ section
 {
 	max-width: 100%;
 }
-.event_date
+.event_date1
 {
 	position: absolute;
 	top: 20px;
 	left: 20px;
-	width: 80px;
-	height: 80px;
-	background: #FFFFFF;
+	width: 60px;
+	height: 60px;
+	background: url(http://www.thequeeroff.com/s2/images/season2/porter_pz.png);
+	background-repeat: no-repeat;
+
+  background-position: 45% 10%; 
 	border: solid 1px #ebebeb;
+}
+.event_date2
+{
+	position: absolute;
+	top: 120px;
+	left: 20px;
+	width: 60px;
+	height: 60px;
+	background: url(http://www.thequeeroff.com/s2/images/season2/Bearded_pz.png);
+	background-repeat: no-repeat;
+
+  background-position: 44% 10%; 
+	border: solid 1px #ebebeb;
+	background-size: 400%;
 }
 .event_day
 {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 40px;
+	font-size: 10px;
 	font-weight: 700;
 	color: rgba(0,0,0,0.9);
 	line-height: 0.75;
@@ -1602,9 +1622,11 @@ section
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 0.3em;
-	color: rgba(0,0,0,0.5);
+	color: white;
 	line-height: 0.75;
 	margin-top: 12px;
+	position: absolute;
+  top: 60px;
 }
 .event_body
 {
@@ -1636,13 +1658,16 @@ section
 {
 	width: 61px;
 	height: 25px;
-	background: #2e21df;
+	background: url(file:///Users/JayPii/Dump/The%20Queer%20Off/tqo2/Draft/images/RAINBOW.png);
+    background-size: 500%;
+    background-position: 44% 10%; 
 	border-radius: 3px;
 	font-size: 12px;
 	text-align: center;
 	line-height: 25px;
 	color: #FFFFFF;
 	font-weight: 600;
+
 }
 
 /*********************************
@@ -1652,8 +1677,8 @@ section
 .blog
 {
 	width: 100%;
-	padding-top: 93px;
-	padding-bottom: 150px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	background: #f8f8f8;
 }
 .blog_left
@@ -1662,9 +1687,12 @@ section
 }
 .blog_title
 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: poplar-std, sans-serif;
+font-style: normal;
+font-weight: 800;
+	text-transform: uppercase;
 	font-size: 30px;
-	font-weight: 700;
+	
 	color: #000000;
 }
 .blog_text
@@ -1702,7 +1730,7 @@ section
 	width: 100%;
 	height: 100%;
 	content: '';
-	background: rgba(46, 33, 223, 0.7);
+	background: url(file:///Users/JayPii/Dump/The%20Queer%20Off/tqo2/Draft/images/RAINBOW.png);
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -1715,6 +1743,9 @@ section
 }
 .blog_category_title
 {
+	font-family: poplar-std, sans-serif;
+font-style: normal;
+font-weight: 400;
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -1723,8 +1754,9 @@ section
 	-ms-transform: translate(-50%, -50%);
 	-o-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
-	font-size: 12px;
+	font-size: 20px;
 	font-weight: 600;
+	text-shadow: 1px 3px black;
 	color: #FFFFFF;
 	text-transform: uppercase;
 	letter-spacing: 0.075em;
