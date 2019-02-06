@@ -437,9 +437,9 @@ section
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
 }
-.logo img
+.logo_img
 {
-	max-width: 100%;
+	max-width: 10%;
 }
 .logo_text
 {
@@ -983,6 +983,7 @@ section
 	width: 100%;
 	padding-top: 50px;
 	padding-bottom: 50px;
+	background: url(file:///Users/JayPii/Dump/The%20Queer%20Off/Season2_Photos/canvas.jpg);
 }
 .language_slider_container
 {
@@ -1815,7 +1816,7 @@ section
 }
 .blog_right_text p
 {
-	font-size: 16px;
+	font-size: 10px;
 	line-height: 2;
 	color: rgba(0,0,0,0.6);
 }
