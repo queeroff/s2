@@ -1584,7 +1584,7 @@ section
 {
 	position: absolute;
 	top: 20px;
-	left: 20px;
+	left: 15px;
 	width: 60px;
 	height: 60px;
 	background: url(http://www.thequeeroff.com/s2/images/season2/porter_pz.png);
@@ -1597,7 +1597,7 @@ section
 {
 	position: absolute;
 	top: 120px;
-	left: 20px;
+	left: 15px;
 	width: 60px;
 	height: 60px;
 	background: url(http://www.thequeeroff.com/s2/images/season2/Bearded_pz.png);
@@ -1606,6 +1606,24 @@ section
   background-position: 44% 10%; 
 	border: solid 1px #ebebeb;
 	background-size: 400%;
+}
+
+.event_date3
+{
+	position: absolute;
+	top: 220px;
+	left: 15px;
+	width: 60px;
+	height: 60px;
+	background: url(http://www.thequeeroff.com/s2/images/season2/paris_pz.png) ;
+
+	background-color: red;
+
+	background-repeat: no-repeat;
+
+  background-position: 40% 5%; 
+	border: solid 2px red;
+	background-size: 250%;
 }
 .event_day
 {
@@ -1627,6 +1645,20 @@ section
 	margin-top: 12px;
 	position: absolute;
   top: 60px;
+}
+.event_monthEl
+{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 7px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.3em;
+	color: white;
+	line-height: 0.75;
+	margin-top: 12px;
+	position: absolute;
+  top: 54px;
+   color: black
 }
 .event_body
 {
