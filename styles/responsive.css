@@ -357,18 +357,9 @@
 	{
 		font-size: 13px;
 	}
-	.instructor_image_container
-	{
-		width: 120px;
-		height: 120px;
-		border: solid 8px #ffffff;
+	
 	}
-	.instructor_image
-	{
-		top: -8px;
-		left: -8px;
-		width: 120px;
-		height: 120px;
+	
 	}
 	.register_form_container
 	{
